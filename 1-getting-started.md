@@ -2,17 +2,25 @@
 
 Imagine a hackable video game machine from the 90's, and instead of writing assembly code you have access to a LUA interpreter. Package it as a virtual machine with a bunch of editors (for code, sprite, map, sound effects and music data) and you've got PICO 8.
 
-## Step 1. Go to the education edition website
+Most of the workshop we assume you'll be working in the education edition.
 
-Most of the workshop we assume you'll be working in the education edition. The address for it is:
+> Go to [https://www.pico-8-edu.com/](https://www.pico-8-edu.com/)
 
-- [https://www.pico-8-edu.com/](https://www.pico-8-edu.com/)
-
-When you go in there you'll end up with this:
+The website will show a simple UI with a play button:
 
 ![Start up](./assets/1-start-edu.png)
 
-When you run PICO8 it initially dumps you out to a terminal. Here you can do the following:
+> Click on the play button
+
+When you run PICO8 it initially dumps you out to a faux text terminal.
+
+![Prompt](./assets/1-the-prompt.png)
+
+> Type `HELP` and hit enter
+
+Do note that PICO-8 only types in upper-case letters. If you try to type with Shift-key held in, you'll get a bunch of characters instead.
+
+![Prompt for HELP](./assets/1-prompt-help.png)
 
 To get started lets write a program that just
 
