@@ -80,6 +80,8 @@ Why are the X and Y arguments 60? This is to draw the sprite in the middle of th
 
 NOTE: If you'd like to know about short-cut commands and more, read the [manual entry 2.1 Code Editor](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#Code_Editor).
 
+You'll notice that some of the code "costs" so called tokens. You can see the token count at the bottom right in the code editor, a PICO-8 program can max only have 8192 tokens. It is enough to write small games in and once you've internalized [how token count works](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#Code_Limits), you'll find [ways to reduce tokens](https://github.com/seleb/PICO-8-Token-Optimizations). But for now, you'll most likely won't hit the token cap. Left click on the token count to also list char count limit and compression capacity. You can also output all that information on the console with the `INFO` command.
+
 > ## 1.9 Run the program
 >
 > Either with:

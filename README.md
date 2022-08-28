@@ -12,9 +12,10 @@ The workshop will assume that you're using the [education edition of PICO-8](htt
 
 ## The Workshop Chapters
 
-1. [Getting started](./1-getting-started.md)
-2. [Your First Loop](./2-your-first-loop.md)
-3. [](./3-.md)
+1. [Getting started](./1-getting-started.md) - Some PICO-8 basics you need to know
+2. [Your First Loop](./2-your-first-loop.md) - Writing your first interactive program, draw a sprite and control it
+3. [Smooth Runnings](./3-smooth-runnings.md) - Improve the animation, add variables for velocity
+4. [That's a Paddlin'](./4-paddles.md) - Create game objects using LUA tables
 
 ## Links
 

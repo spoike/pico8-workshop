@@ -1,6 +1,6 @@
 # 2. Your first game loop
 
-> To skip this chapter use the [following link](https://www.pico-8-edu.com/?c=AHB4YQC8AHUCAI8lr8cGhsUGRkHBrM5tjC7tzQ3ki0wu7A4lBSAdDG4_-g18FLzAG6yfcYJWwAHp5S9wulS4XiFNTn_FTCzkAc6fOL9K_3vyrHqAtBMPeIh7rhvZKPVCvJt4Hwd53zd5_yV0w4_rvA-dYA8A&g=wG6Aw-w06Cw-wsHQHQaAaAaw-wsXgaAaAaw-wsXg6Ew-wrHQHQqQqw-wy6Cw-w06A)
+> To skip this chapter use the [following link](https://www.pico-8-edu.com/?c=AHB4YQDgAIkCAI8lr8cGhsUGRkHBrM5tjC7tzQ3ki0wu7A4lBSAdDG4_-g18FLzAG6yfcYJWwAHp5S9wulS4XiFNTn_FTCzkAc6fOL9K_3vyrHqAtBMPeIh7rrtpo9QL8e6K93GR9x15_yV0w4_rvA-dcJThK4zMbGyoErTpbX0hVxA7MnCsVgE=&g=wG6Aw-w06Cw-wsHQHQaAaAaw-wsXgaAaAaw-wsXg6Ew-wrHQHQqQqw-wy6Cw-w06A)
 
 Writing a program that only draws once is quite boring. However PICO-8 lets you write a game loop. In order to do so easily, PICO-8 will call "special" functions in your program that will repeatedly run:
 
