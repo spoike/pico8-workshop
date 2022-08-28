@@ -2,6 +2,16 @@
 
 Imagine a hackable video game machine from the 90's, and instead of writing assembly code you have access to a LUA interpreter. Package it as a virtual machine with a bunch of editors (for code, sprite, map, sound effects and music data) and you've got PICO 8.
 
+## Step 1. Go to the education edition website
+
+Most of the workshop we assume you'll be working in the education edition. The address for it is:
+
+- [https://www.pico-8-edu.com/](https://www.pico-8-edu.com/)
+
+When you go in there you'll end up with this:
+
+![Start up](./assets/1-start-edu.png)
+
 When you run PICO8 it initially dumps you out to a terminal. Here you can do the following:
 
 To get started lets write a program that just
