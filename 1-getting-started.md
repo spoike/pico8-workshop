@@ -43,7 +43,7 @@ It'll look something like this:
 
 ![Some commands later](./assets/1-four-first-commands.png)
 
-Congratulations, by issueing these commands you wrote some lua code.
+Congratulations, by issuing these commands you wrote some lua code.
 
 > ## 1.6 Hit ESC key to toggle the code editor
 
@@ -89,20 +89,25 @@ You should end up with the following output:
 
 ![Smiley on the console](./assets/1-first-program.png)
 
+Congratulations, you've now written and ran your first program for PICO-8.
+
 > ## 1.10 Save the program
 >
 > In the console issue `SAVE MYGAME`
 
 The game will be saved as a PICO-8 cartridge file, "mygame.p8". In the _education edition_ this will now be in a virtual storage, i.e. the local browser storage (IndexedDB to be precise). If you're using the PICO-8 app it will be stored in your filesystem. PICO-8 provides the `FOLDER` command that will open the cartridge folder.
 
-Whenever you want to share anyone what you're working on in the _education edition_ you can issue the `SAVE @URL` command and copy the URL in the browser address bar.
+Saving the program will also download the p8 file. You can share this file with others who can drag and drop the p8 file on the PICO-8 app to load it.
+
+You can also share the URL to the _education edition_ with `SAVE @URL` command. One you hit enter the browser's address bar will change and may be copied.
 
 ## Points to review
 
 - Issue `HELP` to get help, together with a command e.g. `HELP PRINT` to get help entry for that command.
 - Press escape key (<kbd>Esc</kbd>) to toggle between the editor and the terminal
 - Hit `CTRL-R` or issue `RUN` command in the console to run the currently loaded cartridge
-- `SAVE MYGAME` to save the game as the cartridge file "mygame.p8"
+- `SAVE MYGAME` to save the program as the cartridge file "mygame.p8", `SAVE @URL` to share the program in education version.
 - (Not in Education version) `FOLDER` to open the cartridge folder in your system's file explorer
+- You can drag and drop the `.p8` file on the PICO-8 app to load it.
 
 ## [Next Chapter - Your First loop](./2-your-first-loop.md)
