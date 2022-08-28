@@ -75,7 +75,7 @@ The sprite however will go outside the screen's bounds. PICO-8's screen is 128x1
  -- THIS CLAMPS X AND Y BETWEEN 0 AND 120
 ```
 
-As a single tiled sprite is 8x8 pixels, we need to take into account to clamp the x and y to keep the sprite inside the screen, hence the `128-8`. We're currently assuming that the sprite's pivot point is at the top left.
+As a single tiled sprite is 8x8 pixels, we need to take into account to clamp the x and y to keep the sprite inside the screen, hence the `128-8` calculation. We're currently assuming that the sprite's pivot point is at the top left.
 
 ## Points to review
 
@@ -85,4 +85,4 @@ As a single tiled sprite is 8x8 pixels, we need to take into account to clamp th
 - Run currently loaded cartridge with `CTRL+R`
 - You can clamp values with `MIN`, `MAX`, and `MID` functions.
 
-## [Next Chapter - That's a paddlin'](./2-thats-a-paddlin.md)
+## [Next Chapter - Smooth Runnings](./3-smooth-runnings.md)
