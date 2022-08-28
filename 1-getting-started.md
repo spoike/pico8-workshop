@@ -4,23 +4,29 @@ Imagine a hackable video game machine from the 90's, and instead of writing asse
 
 Most of the workshop we assume you'll be working in the education edition.
 
-> Go to [https://www.pico-8-edu.com/](https://www.pico-8-edu.com/)
+> **Go to [https://www.pico-8-edu.com/](https://www.pico-8-edu.com/)**
 
 The website will show a simple UI with a play button:
 
 ![Start up](./assets/1-start-edu.png)
 
-> Click on the play button
+> **Click on the play button**
 
 When you run PICO8 it initially dumps you out to a faux text terminal.
 
 ![Prompt](./assets/1-the-prompt.png)
 
-> Type `HELP` and hit enter
+> **Type `HELP` and hit enter**
 
 Do note that PICO-8 only types in upper-case letters. If you try to type with Shift-key held in, you'll get a bunch of characters instead.
 
 ![Prompt for HELP](./assets/1-prompt-help.png)
+
+The "help" will list some commands and things you can do. You can also anytime type in `help` together with an API to get info about that keyword.
+
+> **Hit ESC key**
+
+![Empty code editor](./assets/1-hello-code-editor.png)
 
 To get started lets write a program that just
 
