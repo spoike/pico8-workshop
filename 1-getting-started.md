@@ -72,11 +72,13 @@ Something like this:
 > Type in the code below:
 
 ```lua
-cls()
-spr(1,60,60)
+CLS()
+SPR(1,60,60)
 ```
 
-If you'd like to know about short-cut commands and more, read the [manual entry 2.1 Code Editor](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#Code_Editor).
+Why are the X and Y arguments 60? This is to draw the sprite in the middle of the screen. PICO-8 screen is 128x128 pixels. Halfways is 64x64. Sprite is 8x8 pixels and needs to be nudged halfways up and right (4x4) to be centered.
+
+NOTE: If you'd like to know about short-cut commands and more, read the [manual entry 2.1 Code Editor](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#Code_Editor).
 
 > ## 1.9 Run the program
 >
@@ -104,6 +106,9 @@ You can also share the URL to the _education edition_ with `SAVE @URL` command. 
 ## Points to review
 
 - Issue `HELP` to get help, together with a command e.g. `HELP PRINT` to get help entry for that command.
+- `CLS` for clearing the screen
+- `PRINT` for drawing text on the screen
+- `RECTFILL` and `CIRCFILL` to draw a filled rectangle and filled circle respectively
 - Press escape key (<kbd>Esc</kbd>) to toggle between the editor and the terminal
 - Hit `CTRL-R` or issue `RUN` command in the console to run the currently loaded cartridge
 - `SAVE MYGAME` to save the program as the cartridge file "mygame.p8", `SAVE @URL` to share the program in education version.
