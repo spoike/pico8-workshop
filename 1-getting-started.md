@@ -55,7 +55,7 @@ What you see is PICO-8's editor mode, currently on the [code editor](https://www
 
 From left to right, they are: Code editor, Sprite editor, Map data editor, Sound effect editor, Music editor.
 
-To get started lets draw a sprite and write a program that just that sprite with the `spr` function.
+To get started lets draw a sprite and write a program that just that sprite with the `SPR` function.
 
 > ## 1.7 Open sprite editor by clicking on the second tool icon at the top right
 >
@@ -66,6 +66,8 @@ To get started lets draw a sprite and write a program that just that sprite with
 Something like this:
 
 ![Smiley anyone?](./assets/1-draw-a-sprite.png)
+
+The sprite editor lets you draw 8x8 pixel drawings. These can be used in code with the `SPR` and `SSPR` functions.
 
 > ## 1.8 Go back to code editor by clicking on the first tool icon at the top right
 >
@@ -112,6 +114,8 @@ You can also share the URL to the _education edition_ with `SAVE @URL` command. 
 - `PRINT` for drawing text on the screen
 - `RECTFILL` and `CIRCFILL` to draw a filled rectangle and filled circle respectively
 - Press escape key (<kbd>Esc</kbd>) to toggle between the editor and the terminal
+- There are five editors: Code, Sprite, Map Data, SFX and Music editors. ([Manual Reference](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#Editing_Tools))
+- Draw sprites with `SPR` and `SSPR`
 - Hit `CTRL-R` or issue `RUN` command in the console to run the currently loaded cartridge
 - `SAVE MYGAME` to save the program as the cartridge file "mygame.p8", `SAVE @URL` to share the program in education version.
 - (Not in Education version) `FOLDER` to open the cartridge folder in your system's file explorer
