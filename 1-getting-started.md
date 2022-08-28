@@ -4,6 +4,8 @@ Imagine a hackable video game machine from the 90's, and instead of writing asse
 
 Most of the workshop we assume you'll be working in the education edition.
 
+> NOTE: If you like to skip this chapter and just run the program at the end you may use the [following link](https://www.pico-8-edu.com/?c=Y2xzKCkKc3ByKDEsNjAsNjAp&g=wG6Aw-w06Cw-wsHQHQaAaAaw-wsXgaAaAaw-wsXg6Ew-wrHQHQqQqw-wy6Cw-w06A).
+
 > ## 1.1 Go to [https://www.pico-8-edu.com/](https://www.pico-8-edu.com/)
 
 The website will show a simple UI with a play button:
@@ -24,22 +26,83 @@ Do note that PICO-8 only types in upper-case letters. If you try to type with Sh
 
 The "help" will list some commands and things you can do. You can also anytime type in `help` together with an API to get info about that keyword.
 
-> ## 1.4 Hit ESC key
+> ## 1.4 Type `HELP PRINT` and hit enter
+
+![Help prompt for print command](./assets/1-print-help.png)
+
+This will show the help entry for the `PRINT` command. You can issue it on the console like this:
+
+> ## 1.5 Enter the [following commands](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#_Hello_World):
+>
+> - `PRINT("HELLO WORLD")`
+> - `RECTFILL(80,80,120,100,12)`
+> - `CIRCFILL(70,90,20,14)`
+> - `FOR I=1,4 DO PRINT(I) END`
+
+It'll look something like this:
+
+![Some commands later](./assets/1-four-first-commands.png)
+
+Congratulations, by issueing these commands you wrote some lua code.
+
+> ## 1.6 Hit ESC key to toggle the code editor
 
 ![Empty code editor](./assets/1-hello-code-editor.png)
 
-To get started lets write a program that just
+What you see is PICO-8's editor mode, currently on the [code editor](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#Code_Editor), it is currently empty. You can hit ESC to toggle between the console and the editor. There are 5 editors you may use, and they're accessible by clicking on the icon bar on the top right.
+
+![The editor icon bar](./assets/1-icons.png)
+
+From left to right, they are: Code editor, Sprite editor, Map data editor, Sound effect editor, Music editor.
+
+To get started lets draw a sprite and write a program that just that sprite with the `spr` function.
+
+> ## 1.7 Open sprite editor by clicking on the second tool icon at the top right
+>
+> - Select the second sprite (001)
+> - Select a color from the palette
+> - Draw something
+
+Something like this:
+
+![Smiley anyone?](./assets/1-draw-a-sprite.png)
+
+> ## 1.8 Go back to code editor by clicking on the first tool icon at the top right
+>
+> Type in the code below:
 
 ```lua
 cls()
-print("Hello world")
+spr(1,60,60)
 ```
+
+If you'd like to know about short-cut commands and more, read the [manual entry 2.1 Code Editor](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#Code_Editor).
+
+> ## 1.9 Run the program
+>
+> Either with:
+>
+> - CTRL-R in the editor
+> - Issue RUN command in the console
+
+You should end up with the following output:
+
+![Smiley on the console](./assets/1-first-program.png)
+
+> ## 1.10 Save the program
+>
+> In the console issue `SAVE MYGAME`
+
+The game will be saved as a PICO-8 cartridge file, "mygame.p8". In the _education edition_ this will now be in a virtual storage, i.e. the local browser storage (IndexedDB to be precise). If you're using the PICO-8 app it will be stored in your filesystem. PICO-8 provides the `FOLDER` command that will open the cartridge folder.
+
+Whenever you want to share anyone what you're working on in the _education edition_ you can issue the `SAVE @URL` command and copy the URL in the browser address bar.
 
 ## Points to review
 
-- Drag and drop a cartridge png to run the contents of that png
-- `dir`, `cd` to view the current working folder and change it
-- `load <file>` to load a pico 8 file, `.p8` extension is optional
-- `folder` to open the cartidge folder in your system's file explorer
+- Issue `HELP` to get help, together with a command e.g. `HELP PRINT` to get help entry for that command.
 - Press escape key (<kbd>Esc</kbd>) to toggle between the editor and the terminal
-- (Not in Education version) `splore` to explore the BBS
+- Hit `CTRL-R` or issue `RUN` command in the console to run the currently loaded cartridge
+- `SAVE MYGAME` to save the game as the cartridge file "mygame.p8"
+- (Not in Education version) `FOLDER` to open the cartridge folder in your system's file explorer
+
+## [Next Chapter - Your First loop](./2-your-first-loop.md)
