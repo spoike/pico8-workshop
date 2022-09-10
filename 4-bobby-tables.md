@@ -79,4 +79,4 @@ END
 - Accessing and mutating values in a table with `.`, e.g. `PLAYER.X=1`
 - Calling functions with the table as context (i.e. `SELF`) use the colon `:`, e.g.`PLAYER:UPDATE()`.
 
-## [Next Chapter - ](./5-pick-me-up.md)
+## [Next Chapter - Pick Me Up](./5-pick-me-up.md)
