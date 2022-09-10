@@ -36,6 +36,9 @@ This online material will give you a guide on how to write your very own game. I
 - [LUA primer](https://github.com/THE-ORONCO/pico-8/wiki/Lua-Syntax-Primer)
 - [PICO-8 Discord server](https://discord.gg/MhQAzTw)
 - [PICO-8 Cheat Sheets](https://www.lexaloffle.com/bbs/?tid=28207)
+- How to publish your game to itch.io
+  - [Publishing PICO-8 to itch.io](https://itch.io/jam/toy-box-jam-2019/topic/645069/publishing-pico-8-to-itchio)
+  - [How to nicely upload your game](https://www.lexaloffle.com/bbs/?tid=40036) - provides some more instructions on changing the HTML etc.
 
 ## Inspirations
 
