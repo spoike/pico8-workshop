@@ -23,10 +23,10 @@ This online material will give you a guide on how to write your very own game. I
 5. [Pick Me Up](./5-pick-me-up.md) - For loops, LUA tables as arrays/lists
 6. [Crash Test Dummies](./6-crash-test-dummies.md) - Removing elements from array, collision detection using distance formula
 7. [Keeping the Score](./7-keeping-the-score.md) - Print score, respawn objects and center the text
-8. [Particle Galore](./8-particle-galore) - Super simple particle effects
-9. [Enemy at the Gates](./9-enemy-at-the-gates) - Add simple enemies
-10. [It's Game Over, Man](./10-game-over) - Add a game over screen by changing update and draw functions
-11. [What to do next](./11-what-to-do-next)
+8. [Particle Galore](./8-particle-galore.md) - Super simple particle effects
+9. [Enemy at the Gates](./9-enemy-at-the-gates.md) - Add simple enemies
+10. [It's Game Over, Man](./10-game-over.md) - Add a game over screen by changing update and draw functions
+11. [What to do next](./11-what-to-do-next.md)
 
 ## Links
 
