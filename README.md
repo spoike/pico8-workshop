@@ -12,10 +12,21 @@ The workshop will assume that you're using the [education edition of PICO-8](htt
 
 ## The Workshop Chapters
 
+This online material will give you a guide on how to write your very own game. It will take around 2 hours to go through (hopefully without any hitch) and look like this:
+
+![Game Demo](./assets/game-demo.gif)
+
 1. [Getting started](./1-getting-started.md) - Some PICO-8 basics you need to know
 2. [Your First Loop](./2-your-first-loop.md) - Writing your first interactive program, draw a sprite and control it
 3. [Smooth Runnings](./3-smooth-runnings.md) - Improve the animation, add variables for velocity
-4. [That's a Paddlin'](./4-paddles.md) - Create game objects using LUA tables
+4. [They call him Bobby Tables](./4-bobby-tables.md) - Create game objects using LUA tables
+5. [Pick Me Up](./5-pick-me-up.md) - For loops, LUA tables as arrays/lists
+6. [Crash Test Dummies](./6-crash-test-dummies.md) - Removing elements from array, collision detection using distance formula
+7. [Keeping the Score](./7-keeping-the-score.md) - Print score, respawn objects and center the text
+8. [Particle Galore](./8-particle-galore) - Super simple particle effects
+9. [Enemy at the Gates](./9-enemy-at-the-gates) - Add simple enemies
+10. [It's Game Over, Man](./10-game-over) - Add a game over screen by changing update and draw functions
+11. [What to do next](./11-what-to-do-next)
 
 ## Links
 

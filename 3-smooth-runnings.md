@@ -43,7 +43,7 @@ Running the program and controlling the character will look a bit like this:
 
 ![My sprite is out of control!](./assets/3-first-try.gif)
 
-It is a bit out of control, and this is because we don't slow down when we release the keys. Lets correct this by adding some breaks at the end of our `_UPDATE` function:
+It is a bit out of control, and this is because we don't slow down when we release the keys. Lets correct this by "applying some breaks" at the end of our `_UPDATE` function. Easiest is to reduce the `DX` and `DY` values for each frame with a factor:
 
 ```lua
  -- AT THE END OF _UPDATE FUNCTION
@@ -58,5 +58,6 @@ When you're not touching the keys the `DX` and `DY` values will go towards zero,
 ## Points to review
 
 - Creating games is an iterative process. Don't be afraid of a little math to make things smoother.
+- It's common to use `X` and `Y` to track position, `DX` and `DY` to track the change per frame (aka. the velocity).
 
-## [Next Chapter - That's a Paddlin'](./4-paddles.md)
+## [Next Chapter - They Call Him Bobby Tables](./4-bobby-tables.md)
