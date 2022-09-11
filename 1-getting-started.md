@@ -122,3 +122,5 @@ You can also share the URL to the _education edition_ with `SAVE @URL` command. 
 - You can drag and drop the `.p8` file on the PICO-8 app to load it.
 
 ## [Next Chapter - Your First loop](./2-your-first-loop.md)
+
+## [Back to the README](./README.md)

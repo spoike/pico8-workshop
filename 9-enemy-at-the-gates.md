@@ -108,3 +108,5 @@ The game should now spawn ghosts every 2nd second.
 - The `T` function gives you the current game time in seconds
 
 ## [Next Chapter - It's Game Over, Man!](./10-game-over.md)
+
+## [Back to the README](./README.md)

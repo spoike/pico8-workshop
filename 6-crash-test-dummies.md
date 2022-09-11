@@ -42,3 +42,5 @@ Running <kbd>CTRL</kbd>+<kbd>R</kbd> you'll be able to pick up the cherries in t
 - `DEL` removes/deletes the given object from the given table
 
 ## [Next Chapter - Keeping the Score](./7-keeping-the-score.md)
+
+## [Back to the README](./README.md)

@@ -6,7 +6,7 @@ Here are some ideas on how to continue:
 
 - Make some sound effects in the sound effect editor. You can play them in the game with the [`SFX` function](https://pico-8.fandom.com/wiki/Sfx).
 
-- You might've noticed there is a bug with the collision detection, this is because we're basing the distance calc on the upper left corner of the sprites. One fix is to offset that check with x:-4, y:-4.
+- You might've noticed there is a bug with the collision detection, this is because we're basing the distance calc on the upper left corner of the sprites. One fix is to offset that check or change the draw functions to draw the sprites with an offset. The offset is x:-4, y:-4,
 
 - Change some variables around, see what happens. Spawn more enemies at a time? More or less particles?
 
@@ -15,6 +15,17 @@ Here are some ideas on how to continue:
 - You could let the ghosts move faster as time progresses.
 
 - Add more pickups with more sprites. Should something else happen when you pick them up?
+
+- By default, black is treated as transparent color. If you don't want that, you can initialize the game with [`PALT` function](https://pico-8.fandom.com/wiki/Palt) to set another color to be transparent instead. E.g. the pink color (14) as transparent?
+
+```lua
+PALT(0,FALSE) -- set black as non-transparent
+PALT(14,TRUE) -- set pink as transparent
+```
+
+- Want to cycle colors? Check out the [`PAL` function](https://pico-8.fandom.com/wiki/Pal) that lets you swap colors.
+
+- Speaking of colors: PICO-8 only allows to draw 16 colors at the same time per frame, i.e. the screen palette, but there is a way to access 16 other colors other than the standard palette. Check [this wiki entry](https://pico-8.fandom.com/wiki/Graphics) for more info about that.
 
 - Add more enemies with other draw and update behaviors. Several enemies that follows a straight path perhaps?
 
@@ -57,3 +68,5 @@ END
 - Keep in mind that [`RND` function](https://pico-8.fandom.com/wiki/Rnd) also takes a list table as input. The output will be a random entry from the list.
 
 - Good luck and have fun!
+
+## [Back to the README](./README.md)

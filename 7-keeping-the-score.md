@@ -93,3 +93,5 @@ Running the game should look like this, and the score should center together wit
 - Concatenate strings with `..`, also coerces number to a string
 
 ## [Next Chapter - Particle Galore!](./8-particle-galore.md)
+
+## [Back to the README](./README.md)

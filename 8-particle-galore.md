@@ -103,3 +103,5 @@ The game should look sort of like this:
 - Trigonometry functions exist in the PICO-8 API such as `SIN`, `COS`.
 
 ## [Next Chapter - Enemy At the Gates](./9-enemy-at-the-gates.md)
+
+## [Back to the README](./README.md)

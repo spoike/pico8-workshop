@@ -99,3 +99,5 @@ END
 - You can also use LUA iterators to go over a table `ALL` or `PAIRS`. The latter will give entries in a `KEY,VALUE` pairs.
 
 ## [Next Chapter - Crash Test Dummies](./6-crash-test-dummies.md)
+
+## [Back to the README](./README.md)

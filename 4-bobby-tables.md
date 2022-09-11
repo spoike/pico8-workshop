@@ -80,3 +80,5 @@ END
 - Calling functions with the table as context (i.e. `SELF`) use the colon `:`, e.g.`PLAYER:UPDATE()`.
 
 ## [Next Chapter - Pick Me Up](./5-pick-me-up.md)
+
+## [Back to the README](./README.md)

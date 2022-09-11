@@ -86,3 +86,5 @@ As a single tiled sprite is 8x8 pixels, we need to take into account to clamp th
 - You can clamp values with `MIN`, `MAX`, and `MID` functions.
 
 ## [Next Chapter - Smooth Runnings](./3-smooth-runnings.md)
+
+## [Back to the README](./README.md)

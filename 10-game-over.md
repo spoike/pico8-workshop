@@ -176,3 +176,5 @@ When running the game and trying to die again, the game should wait a bit before
 - Good idea: Extract update and drawing code to own functions and set them dynamically during run time to switch screens or "scenes".
 
 ## [Next Chapter - What to do next](./11-what-to-do-next.md)
+
+## [Back to the README](./README.md)
