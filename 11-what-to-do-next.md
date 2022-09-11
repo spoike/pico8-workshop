@@ -6,21 +6,27 @@ Here are some ideas on how to continue:
 
 - Make some sound effects in the sound effect editor. You can play them in the game with the [`SFX` function](https://pico-8.fandom.com/wiki/Sfx).
 
-- You could try getting the ghosts not to bunch up together by letting them nudge away from each other when they collide.
+- You might've noticed there is a bug with the collision detection, this is because we're basing the distance calc on the upper left corner of the sprites. One fix is to offset that check with x:-4, y:-4.
+
+- Change some variables around, see what happens. Spawn more enemies at a time? More or less particles?
+
+- You could try getting the ghosts not to bunch up together by letting them nudge away from each other whenever they collide.
 
 - You could let the ghosts move faster as time progresses.
 
-- Add more pickups with more sprites
+- Add more pickups with more sprites. Should something else happen when you pick them up?
 
 - Add more enemies with other draw and update behaviors. Several enemies that follows a straight path perhaps?
-
-- Change some variables around, see what happens. Spawn more enemies at a time? More or less particles?
 
 - Make some music in the music editor. Play in the game with the [`MUSIC` function](https://pico-8.fandom.com/wiki/Music)
 
 - You can shake the screen by giving random values to [`CAMERA` function](https://pico-8.fandom.com/wiki/Camera).
 
-- Linear interpolation is useful, however PICO-8 doesn't provide that. Here's some code for a function that does that. It takes two values and mixes it with the given `t` (a decimal number between 0 and 1). It may be used to move stuff between two points, fake gradients, etc:
+- You may use the map editor to render several sprites at the same time. The [`MAP` function](https://pico-8.fandom.com/wiki/Map) draws the given grid.
+
+- If you're using the map, sprites can be marked with a sprite flag. Use [`MGET`](https://pico-8.fandom.com/wiki/Mget) to get the sprite associated with the given map position and [`FGET`](https://pico-8.fandom.com/wiki/Fget) to get the flag to that sprite. You can use this to mark tiles as impassable with one flag and do collision check by checking if the flag is set on the target position.
+
+- Linear interpolation is useful, however PICO-8 doesn't provide that. Here's some code for a function that does that. It takes two values and mixes it with the given `t` (a decimal number between 0 and 1). It may be used to move stuff between two points, fake gradients, draw HP bars etc:
 
 ```lua
 -- TAKES 2 VALUES AND RETURNS A MIX OF THEM
