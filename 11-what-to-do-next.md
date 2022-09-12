@@ -2,9 +2,11 @@
 
 Over these past chapters, you've managed to create a game with a player character, some pickups, chasing ghosts and a game over screen. A very good start for a game, now put your own spin to it!
 
-Here are some ideas on how to continue:
+Here are some more ideas on how to continue:
 
 - Make some sound effects in the sound effect editor. You can play them in the game with the [`SFX` function](https://pico-8.fandom.com/wiki/Sfx).
+
+- Now that you've made a game over screen, try making an intro screen!
 
 - You might've noticed there is a bug with the collision detection, this is because we're basing the distance calc on the upper left corner of the sprites. One fix is to offset that check or change the draw functions to draw the sprites with an offset. The offset is x:-4, y:-4,
 
@@ -12,9 +14,11 @@ Here are some ideas on how to continue:
 
 - You could try getting the ghosts not to bunch up together by letting them nudge away from each other whenever they collide.
 
-- You could let the ghosts move faster as time progresses.
+- You could let the ghosts move faster as time progresses to increase difficulty.
 
 - Add more pickups with more sprites. Should something else happen when you pick them up?
+
+- Try animating some sprites.
 
 - By default, black is treated as transparent color. If you don't want that, you can initialize the game with [`PALT` function](https://pico-8.fandom.com/wiki/Palt) to set another color to be transparent instead. E.g. the pink color (14) as transparent?
 
