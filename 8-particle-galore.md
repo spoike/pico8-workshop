@@ -7,7 +7,7 @@
 There is no particle system in PICO-8. However you can easily code one yourself. One simple system is to just draw a bunch of circles going in some direction. To keep track of all particles to draw we can initiate the program with a `PARTICLES` table in `_INIT`.
 
 ```lua
-FUNCTION INIT()
+FUNCTION _INIT()
  PARTICLES={}
  -- SNIP-SNIP
 END
