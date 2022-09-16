@@ -46,7 +46,7 @@ After you've picked up all five cherries, there are no more to pick up! Lets add
 ```lua
 FUNCTION _UPDATE()
   -- SNIP SNIP
-  IF #CHERRY < 5 THEN
+  IF #CHERRIES < 5 THEN
    ADD_CHERRY()
   END
 END
