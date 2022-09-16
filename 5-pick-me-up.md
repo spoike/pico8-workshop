@@ -56,7 +56,7 @@ Now we don't want to repeat ourselves (remember DRY?) so lets do a `FOR`-loop:
 
 ```lua
 FUNCTION _INIT()
- FOR 1,5 DO
+ FOR I=1,5 DO
   ADD_CHERRY() -- is called 5 times
  END
 END
